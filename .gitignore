@@ -1,0 +1,10 @@
+airflow/logs/
+airflow/__pycache__/
+airflow/*.db
+
+spark_ivy/
+
+__pycache__/
+*.pyc
+
+*.log
