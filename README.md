@@ -17,6 +17,13 @@ The pipeline follows a modern data engineering stack, ensuring scalability and s
 
 ---
 
+## 🔄 CI/CD
+
+This project uses **GitHub Actions** to automatically validate the data platform on every push and pull request.  
+The CI pipeline builds the Docker services, starts core components, and runs smoke tests to ensure the system is functional.
+
+---
+
 ## 🛠️ Key Engineering Decisions
 * **Scalability**: Events are partitioned and keyed to allow horizontal scaling.
 * **Data Tiering**: Clear separation between **Raw** (Bronze) and **Processed** (Gold) layers.
