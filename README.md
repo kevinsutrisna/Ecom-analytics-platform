@@ -8,7 +8,7 @@ The pipeline follows a modern data engineering stack, ensuring scalability and s
 
 
 
-* **Kafka**: Real-time event ingestion (keyed by `user_id`).
+* **Kafka**: Real-time event ingestion.
 * **MinIO (S3-Compatible)**: Raw event storage acting as the Data Lake.
 * **Spark**: Batch aggregation and transformation engine.
 * **Postgres**: Serving layer for analytics-ready tables.
@@ -28,7 +28,7 @@ The CI pipeline builds the Docker services, starts core components, and runs smo
 * **Scalability**: Events are partitioned and keyed to allow horizontal scaling.
 * **Data Tiering**: Clear separation between **Raw** (Bronze) and **Processed** (Gold) layers.
 * **Idempotency**: Batch jobs are designed to be re-runnable without duplicating data or causing inconsistencies.
-* **Production-Ready Patterns**: The infrastructure setup mirrors real-world production environments rather than taking shortcuts.
+* **Production Ready Patterns**: The infrastructure setup mirrors real case production environments rather than taking shortcuts.
 
 ---
 
