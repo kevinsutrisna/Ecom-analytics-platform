@@ -1,7 +1,7 @@
-# End-to-End E-commerce Analytics Platform
+# End to End E-commerce Analytics Platform
 
 ## Project Overview
-This project simulates a production-grade e-commerce analytics system. It ingests user events in real-time, stores raw data in a data lake, processes it using batch jobs, and exposes analytics-ready tables with automated orchestration and data quality checks.
+This project simulates a production-grade e-commerce analytics system. It ingests user events in real-time, stores raw data in a data lake, processes it using batch jobs and exposes analytics ready tables with automated orchestration and data quality checks.
 
 ## Architecture Overview
 The pipeline follows a modern data engineering stack, ensuring scalability and separation of concerns:
